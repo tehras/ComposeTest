@@ -1,0 +1,21 @@
+apply from: rootProject.file("gradle/configure-android.gradle")
+apply from: rootProject.file("gradle/koin.gradle")
+
+dependencies {
+    implementation Kotlin.stdLib
+    implementation Android.appcompat
+
+    implementation Compose.animation
+    implementation Compose.core
+    implementation Compose.foundation
+    implementation Compose.layout
+    implementation Compose.material
+    implementation Compose.materialIconsExt
+    implementation Compose.runtime
+
+    implementation Workflow.compose
+    implementation Workflow.core
+    implementation Workflow.runtime
+
+    debugImplementation Workflow.composeTooling
+}

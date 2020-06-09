@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_box_background" type="color">?android:attr/colorPrimary</item>
+</resources>

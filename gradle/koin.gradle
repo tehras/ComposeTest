@@ -1,0 +1,4 @@
+dependencies {
+    implementation Koin.core
+    implementation Koin.android
+}

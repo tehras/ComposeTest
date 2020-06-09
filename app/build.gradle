@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+apply from: rootProject.file("gradle/android-app.gradle")
+
+dependencies {
+    implementation project(':data-pubg')
+
+    // UI implementations.
+    implementation project(':player')
+    implementation project(':ui-common')
+}
